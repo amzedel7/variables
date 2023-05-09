@@ -2,42 +2,27 @@
 <head>
 <title>Nuestro primer script en JavaScript</title>
 <script type="text/javascript">
-   //alert("¡hola mundo!");
-   let numero1 = 1;
-   let numero2 = 2;
-   let numero3 = 3;
-   let letraA ='A'; // "A" son iguales
-   let numero_4 = 4;
-  //let e$-pacio = 2; // no se debe realizar 
-  // let continue ='C'; // continue es una palabra reservada;
+   let precio_producto = 75.62; // para decimal se utiliza el punto
+   let nombre_producto = "SET LEGO 120 PZS. \"+10\"";
+   let caracteristica_producto = "COLORES: \n AZUL \n ROJO"
+   let disponible_producto = false; // Tipo Booleano (true = 1 | false = 0 )
+   let producto1 = ["SET LEGO 120 PZS. \"+10\"", "75.62", "COLORES: \n AZUL \n ROJO", true];
+   let producto2 = ["VIDEOJUEGO PS4", "250.54", 150, "CATEGORIA: \n ACCION", false];
+     // los array son agrupaciones, y que pueden tener N cantidad.
+      
+   console.log(producto1, producto2)
+  
+   /* utilizar comilla simple se en la cadena de texto se 
+   usaran comillas dobles o viceverza
 
-   let resultado = 0;
-   let resultado_resta = 0;
-   let resultado_multiplicacion = 0;
-   let primer_valor = 10;
-   let segundo_valor = 20;
-   // SUMA
-   resultado = primer_valor + segundo_valor;
-   //x = 20 - 10;=> 10
-   // RESTA
-   resultado_resta = segundo_valor - primer_valor;
-   //x = 10 + 20; => 30
-   // multiplicaion
-   resultado_multiplicacion = segundo_valor * primer_valor;
-   //x = 20 * 10 => 200
-   // division
-   resultado_division = segundo_valor / primer_valor;
-   //x = 20/10 => 2
-   alert("SUMA DE 10 Y 20 =" + resultado);
-   console.log("SUMA DE 10 Y 20 =" + resultado);
-   alert("RESTA DE 20 Y 10 =" + resultado_resta);
-   console.log("RESTA DE 20 Y 10 =" + resultado_resta);
+   Ejemplo 1 : "la letra 'J' es una letra del abecedario"
+   Ejemplo 1 : "la letra 'M' es una letra del abecedario" 
    
-   console.log("multiplicacion de 20 * 10 = " + resultado_multiplicacion);
-   console.log("resultado de 20 / 10 =" + resultado_division);
-   
-    //console.log(numero_4);
-    //alert(resultado);
+   utilizar caracter de escape, que el simbolo es / 
+   EJEMPL0 1 "SET LEGO 120 PZS. /"+10/"" */ 
+
+   alert(caracteristica_producto);
+
 
 </script>
 </head>
